@@ -9,7 +9,6 @@ offer: tile
 ---
 
 <h2>{{ page.title }}</h2>
-<img src="{{ page.image }}" alt="{{ page.title }}">
-<p>Price: {{ page.price }}</p>
+<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}" height="300" width="300">
+<p class="price">Price: {{ page.price }}</p>
 <span class="fui-heart"> {{ page.likes }} Likes</span>
-<p><button class="btn btn-lg btn-primary" type="button">Like it</button></p>

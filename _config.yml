@@ -1,3 +1,4 @@
 name: whatthephone
 markdown: redcarpet
 pygments: true
+baseurl: /project-name

@@ -2798,7 +2798,7 @@ fieldset[disabled] .form-control + .input-icon,
   text-align: center;
 }
 .tile.tile-hot:before {
-  background: url(../images/ribbon.png) 0 0 no-repeat;
+  background: url({{ site.baseurl}}/images/ribbon.png) 0 0 no-repeat;
   background-size: 82px 82px;
   content: '';
   height: 82px;
@@ -2827,7 +2827,7 @@ fieldset[disabled] .form-control + .input-icon,
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
   .tile.tile-hot:before {
-    background-image: url(../images/tile/ribbon-2x.png);
+    background-image: url({{ site.baseurl}}/images/tile/ribbon-2x.png);
   }
 }
 .todo {
