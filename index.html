@@ -1,0 +1,18 @@
+---
+layout: default
+title: What the phone
+---
+<div class="jumbotron">
+  <div class="container">
+    <h1>The best way to find vintage phones</h1>
+    <p><a class="btn btn-primary btn-lg">Try now!</a></p>
+  </div>
+</div>
+<div class="container">
+  <h2>Our products</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
