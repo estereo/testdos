@@ -1,0 +1,15 @@
+---
+layout: article
+title:  "Crosley Desk Phone"
+image: /images/phone01.jpg
+price: 120 Euros
+likes: 12
+intro: Feel like a Sir. Indeed.
+offer: tile tile-hot
+---
+
+<h2>{{ page.title }}</h2>
+<img src="{{ page.image }}" alt="{{ page.title }}">
+<p>Price: {{ page.price }}</p>
+<span class="fui-heart"> {{ page.likes }} Likes</span>
+<p><button class="btn" type="button">Like it</button></p>

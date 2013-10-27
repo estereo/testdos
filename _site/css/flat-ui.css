@@ -2798,7 +2798,7 @@ fieldset[disabled] .form-control + .input-icon,
   text-align: center;
 }
 .tile.tile-hot:before {
-  background: url(../images/tile/ribbon.png) 0 0 no-repeat;
+  background: url(../images/ribbon.png) 0 0 no-repeat;
   background-size: 82px 82px;
   content: '';
   height: 82px;
